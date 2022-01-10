@@ -119,7 +119,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    fs.writeFileSync('generated-readme.md', generateMarkdown(data));
+    fs.writeFileSync('README.md', generateMarkdown(data));
 }
 
 // TODO: Create a function to initialize app (converted to async function)

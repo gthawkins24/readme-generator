@@ -34,7 +34,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'None') {
   return `
-  ##[License](#Table-of-Contents)
+  ##[license](#Table-of-Contents)
   
   ${renderLicenseLink(license)}
   `
@@ -49,7 +49,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 
-  ## Table-of-Contents
+  ## Table of Contents
 
   * [Description](#description)
   * [Installation](#installation)
@@ -59,32 +59,32 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Contribution](#contribution)
   
-  ##[Description](#Table-of-Contents)
+  ##[Description](#description)
 
   ${data.description}
 
-  ##[Installation](#Table-of-Contents)
+  ##[Installation](#installation)
 
   ${data.installation}
 
-  ##[Questions](#Table-of-Contents)
+  ##[Questions](#questions)
 
   If you have additional questions, you can email me at the address below, or reach me at GitHub:
 
   Email: ${data.email}
   [GitHub](https://github.com/${data.githubName})
 
-  ##[Usage]#(Table-of-Contents)
+  ##[Usage](#usage)
 
   ${data.usage}
 
   ${renderLicenseSection(data.license)}
 
-  ##[Tests](#Table-of-Contents)
+  ##[Tests](#tests)
 
   ${data.test}
 
-  ##[Contribution](#Table-of-Contents)
+  ##[Contribution](#contribution)
 
   ${data.contribution}
 `;
