@@ -34,7 +34,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'None') {
   return `
-  ##[license](#Table-of-Contents)
+  ##[License]
   
   ${renderLicenseLink(license)}
   `
@@ -80,7 +80,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  ##[Tests](#tests)
+  ##[Tests]
 
   ${data.test}
 
