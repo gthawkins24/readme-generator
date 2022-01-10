@@ -59,22 +59,22 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Contribution](#contribution)
   
-  ##[Description](#description)
+  ##[Description]
 
   ${data.description}
 
-  ##[Installation](#installation)
+  ##[Installation])
 
   ${data.installation}
 
-  ##[Questions](#questions)
+  ##[Questions]
 
   If you have additional questions, you can email me at the address below, or reach me at GitHub:
 
   Email: ${data.email}
   [GitHub](https://github.com/${data.githubName})
 
-  ##[Usage](#usage)
+  ##[Usage]
 
   ${data.usage}
 
@@ -84,7 +84,7 @@ function generateMarkdown(data) {
 
   ${data.test}
 
-  ##[Contribution](#contribution)
+  ##[Contribution]
 
   ${data.contribution}
 `;
