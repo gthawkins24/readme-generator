@@ -15,11 +15,11 @@
   
   ##[Description]
 
-  I'm 
+  I'm learning JS and Node
 
   ##[Installation])
 
-  refer to testing
+  Refer to testing
 
   ##[Questions]
 
@@ -33,16 +33,16 @@
   USE AT YOUR OWN RISK
 
   
-  ##[license](#Table-of-Contents)
+  ##[License]
   
   
     [Unlicense](https://choosealicense.com/licenses/unlicense/)
   
 
-  ##[Tests](#tests)
+  ##[Tests]
 
-  I have no clue
+  I have no idea
 
   ##[Contribution]
 
-  Anyone is willing to contribute if they can make sense of my code
+  Anyone is welcome to contribute
